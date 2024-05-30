@@ -16,6 +16,7 @@ const unknownEndpoint = (request, response) => {
 };
 
 app.use(cors());
+app.use(express.static('dist'));
 
 let notes = [
   {
