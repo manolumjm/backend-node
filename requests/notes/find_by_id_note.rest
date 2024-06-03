@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/notes/665a0b07c68ed88a66fd383b
+
+###
+
+GET http://localhost:3001/api/notes/5c41c90e84d891c15dfa3431
+
+###
+
+GET http://localhost:3001/api/notes/someInvalidId
+
+###
+
+GET http://localhost:3001/info
